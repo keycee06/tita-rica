@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teacher's Day - Tita Rica</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: "Segoe UI", Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #dff7ec, #fef3c7, #ffe4e6);
+            padding: 30px;
+        }
+
+        .card {
+            width: 100%;
+            max-width: 680px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 32px;
+            padding: 32px 28px;
+            text-align: center;
+            box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
+            border: 4px solid #33a05b;
+            backdrop-filter: blur(2px);
+        }
+
+        .top {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            color: #1c7b40;
+            font-size: clamp(2.2rem, 5vw, 3.2rem);
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            color: #d29a00;
+            font-size: clamp(1.5rem, 3vw, 2.1rem);
+            margin-bottom: 22px;
+            font-weight: 700;
+        }
+
+        .photo {
+            width: min(260px, 70vw);
+            height: 290px;
+            object-fit: cover;
+            border-radius: 22px;
+            border: 6px solid #f3d66b;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+            margin-bottom: 26px;
+        }
+
+        .message {
+            background: linear-gradient(180deg, #f4fff7, #eefaf2);
+            border-radius: 22px;
+            padding: 24px 22px;
+            line-height: 1.8;
+            color: #2f2f2f;
+            font-size: 1.05rem;
+            box-shadow: inset 0 0 0 1px rgba(28, 123, 64, 0.08);
+        }
+
+        .message p {
+            margin-bottom: 14px;
+        }
+
+        .message p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight {
+            color: #1c7b40;
+            font-weight: 700;
+        }
+
+        .flowers {
+            font-size: 2rem;
+            margin: 20px 0 18px;
+            letter-spacing: 8px;
+        }
+
+        .signature {
+            color: #1c7b40;
+            font-weight: 700;
+            font-size: 1.05rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 500px) {
+            .card {
+                padding: 24px 18px;
+            }
+
+            .message {
+                font-size: 0.96rem;
+                padding: 18px 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="top">🌷📚🍎</div>
+
+        <h1>Happy Teacher's Day!</h1>
+        <h2>To My Dear Tita Rica</h2>
+
+        <img src="tita.jpg" alt="Tita Rica" class="photo">
+
+        <div class="message">
+            <p>Happy Teacher's Day, Tita Rica! 🌸</p>
+            <p>
+                Thank you for being such a wonderful teacher who shares not only knowledge,
+                but also kindness, patience, and inspiration. <span class="highlight">💚</span>
+            </p>
+            <p>
+                Your guidance and love make learning brighter and life more meaningful.
+                You are truly a teacher worth appreciating every single day.
+            </p>
+        </div>
+
+        <div class="flowers">🌻 🌷 🌸 🌼 🌺</div>
+
+        <p class="signature">
+            With love and appreciation,<br>
+            Your Niece/Nephew 💕
+        </p>
+    </div>
+</body>
+</html>
